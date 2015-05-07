@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-be8139d9a46ddc20941fc03438ad02d169ee47a0.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-fc46b039df052b9982a7c5c29f164b8ea0fdd847.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-ebc489d9ca23eaa0aedc48350f60b06ecb0e0a17.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-b4fb8dfcd9b1048534a698802fde5bdf5739a0fe.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-a6d5440153fc4cfa38a3b8bf386621a338731cc3.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-aef735f3ea0d3af91dfe120a1b41d952e40d115b.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/classes-9340f7f032d1c414613f6a796523dfd366a19fdd.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/classes-d82bdb82ae20c8a55e9467d6e1a65281d39dc252.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-ee85fe7099803e713a1b7ecf676d13fa5fe67328.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-c3a8cecf18d18aed1cf891d7a46b857ded585524.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/classes-0ae70ff2b9b0aabb9aa7c840a0b6ebe485d08701.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-480b669a00e6871b3b95784038e72bd69350731b.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-4d6136fe7d29a6671ff45139ba4ad1d74252d9c4.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-30c20e1f34e318c7d704b43e593ca283e2ba23f5.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-ba82080cc132845f3787501ca3070a89751e71ec.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-4b16738235204392b60a391d98b7bdee120d08db.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-e3effde08867ed32f2bb810ed3794bfb866d165c.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8a576238ad5c9a9fd7e564bf0082087c61321e88.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-d518c953646f2db35569d67dafc4d653d21a3c26.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-bb5ac900471a3e6cd49d7cc29a1be71f08100723.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-5d6d087f58bbef5941da916a59170fdcdebe1151.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/support-annotations-22.0.0-f3c05edb16302b96fa4bbe228e99b83e11c0af3d.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/internal_impl-22.0.0-a58710f9b1562dce623f28e8073100edd5be165b.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-2676ec16b6d18d07813fd09e39395b00b0948c9b.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-c699787c5944615054adba9b5d43b29836676327.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-4cb7adbe826d3a77a070b3476ba24c5b8476c0a9.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-19c6aaf04bb6d0b7a74c404347e1b3ca39c82fe8.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/classes-ed010361356e45c10a396d67ce54c364634a96e4.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/mobile/build/intermediates/pre-dexed/debug/classes-21ab5dc2b7a1d1d3eeb420537a6b40437686c04f.jar" />
+    </item>
+    <item
+        jar="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/tarwinderjosan/Desktop/DrunkOClock2/wear/build/intermediates/pre-dexed/release/classes-6856ff22111f28e44e0c47fe719753f761bb465b.jar" />
+    </item>
+
+</items>

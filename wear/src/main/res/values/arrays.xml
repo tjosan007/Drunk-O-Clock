@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    The following is a list of phrases used be the applications,
+    nested in arrays. -->
+    <string-array name="weather_sober">
+        <item>Rather stormy today</item>
+        <item>A spot of rain</item>
+        <item>Beautiful snowflakes</item>
+        <item>It\'s somewhat foggy</item>
+        <item>It\'s lovely out</item>
+        <item>There\'r some clouds</item>
+        <item>A bit overcast</item>
+    </string-array>
+    <string-array name="swears_sober">
+        <item>Ohh</item>
+        <item>Hell</item>
+        <item>Blimey</item>
+        <item>Flip</item>
+        <item>Eek</item>
+        <item>"Oo-er</item>
+    </string-array>
+    <string-array name="sober_wordpack">
+        <item>flippin</item>
+        <item>frikkin</item>
+        <item>darnit</item>
+        <item>bangin</item>
+        <item>truckin</item>
+        <item>crappin</item>
+    </string-array>
+    <string-array name="weather_tipsy">
+        <item>Aw shit, storms</item>
+        <item>Cocking rain showers</item>
+        <item>Pissing it down</item>
+        <item>Snow, you Canadian</item>
+        <item>Can\'t see shit</item>
+        <item>Nice day, dick</item>
+        <item>Few wanky clouds</item>
+        <item>Holy shit, overcast</item>
+    </string-array>
+    <string-array name="swears_tipsy">
+        <item>Arse</item>
+        <item>Ass</item>
+        <item>Balls</item>
+        <item>Piss</item>
+        <item>Bitch</item>
+        <item>Wank</item>
+    </string-array>
+    <string-array name="tipsy_wordpack">
+        <item>shitting</item>
+        <item>cocking</item>
+        <item>twattin</item>
+        <item>jizzing</item>
+        <item>pissing</item>
+        <item>bastard</item>
+    </string-array>
+
+    <string-array name="weather_wasted">
+        <item>FUCK! Thunderstorms</item>
+        <item>Drizzle of shit</item>
+        <item>Wow, fucking rain</item>
+        <item>Fucking Canadian, snow</item>
+        <item>Shitty ass mist</item>
+        <item>Shit\'s fucking clear</item>
+        <item>Fuck these clouds</item>
+        <item>Overcast you limey</item>
+    </string-array>
+    <string-array name="wasted">
+        <item>Shit</item>
+        <item>Whore</item>
+        <item>Douche</item>
+        <item>Cunt</item>
+        <item>Fuck</item>
+        <item>Mofo</item>
+    </string-array>
+
+
+
+
+</resources>

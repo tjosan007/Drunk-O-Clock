@@ -1,6 +1,57 @@
 <resources>
-    <string name="app_name">DrunkOClock</string>
+    <string name="app_name">Drunk O\' Clock App</string>
+    <string name="action_update">Update</string>
+    <string name="API_KEY">Api key here</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <string-array name="alignmentOptions">
+        <item>Left</item>
+        <item>Center</item>
+    </string-array>
+    <string-array name="alignmentValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="backgroundOptions">
+        <item>Gray</item>
+        <item>Light Gray</item>
+        <item>Brown</item>
+        <item>Light Brown</item>
+    </string-array>
+    <string-array name="backgroundValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="wordPackOptions">
+        <item>Sober</item>
+        <item>Tipsy</item>
+        <item>Wasted</item>
+    </string-array>
+    <string-array name="wordPackValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="transitionOptions">
+        <item>Fade</item>
+        <item>Slide</item>
+    </string-array>
+    <string-array name="transitionValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="temperatureOption">
+        <item>Do not display</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="temperatureValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>

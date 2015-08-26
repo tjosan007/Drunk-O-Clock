@@ -1,19 +1,17 @@
 package tarwinderjosan.com.drunkoclock;
 
 import android.util.Log;
+
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
- * Custom date formatter for formatting the dates for the different types of watch faces.
- *
- * Change-log:
- * 5/1/2015
- * Added methods for the 2nd Word watch face
- * Included a PhraseBook object used internally by the class
- *
+ * Custom date formatter for formatting the date and time for the main watch face/
+ * Date: May 15, 2015
  */
-public class CustomDateFormatter {
+public class CustomWordDateFormatter {
 
     // Digits used to format date
     String[] multiples = new String[]{"ten", "twenty", "thirty", "forty", "fifty", "sixty"};
@@ -21,81 +19,50 @@ public class CustomDateFormatter {
     // 10 - 19 inclusive
     String[] tens = new String[]{"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
 
-   // Date format for main watch face look
-   private final String DATE_FORMAT = "MMMM dd";
-   private final String TIME_FORMAT = "k:mm";
+    // Date object representing the current date
 
-  // Date object representing the current date
-  private Date currentDate;
+    private Date currentDate;
+    private WordWatchFace word;
 
-    // Holds the current Watch Face Type
-    WatchFaceLook watchFaceLook;
-
-
-    public CustomDateFormatter() {}
+    /**
+     * Main constructor.
+     * Initialize reference to Word class.
+     * @param word Word class instance
+     */
+    public CustomWordDateFormatter(WordWatchFace word ) {
+        this.word = word;
+    }
 
     /**
      * Get the current day
-     * @return
+     * @return The current day in String format
      */
     public String getDay() {
         // Return the day in STRING format
+        // When the letters are 4 characters or more, full version is used of the name
         return new SimpleDateFormat("EEEE").format(currentDate);
     }
 
     /**
-     * Get and return the date according to the watch face present
-     * @return The date
-     */
-    public String getDateAccordingTo() {
-        // Get and return the date
-        if(watchFaceLook == WatchFaceLook.PLAIN) {
-            SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT);
-           return sdf.format(currentDate);
-        }
-        return "Error 9";
-    }
-
-    /**
-     * Get the time according to the watch face style
+     * Get the time for the watch face.
      * @return The time according to the watch face style, contained in the array
-     * Default watch face will have stored one element representing the time,
-     * the other watch faces utilize the extra space to store converted forms into words
-     * @param styler  The Style class in reference too
      */
-    public String[] getTimeAccordingTo(Style styler) {
-        // Return the time in 24 hr format if plain watch face look is used
-        if(watchFaceLook == WatchFaceLook.PLAIN) {
-            return new String[]{new SimpleDateFormat(TIME_FORMAT).format(currentDate)};
-        } else if (watchFaceLook == WatchFaceLook.WORD) {
-            // max 4 holds
+    public String[] getTimeAccordingTo() {
             String[] textHolder = new String[5];
             textHolder[0] = getHourAsString();
-            textHolder[1] = styler.getPhraseBook().getAppropriateSaying(styler);
-            // Set the minute string in index 2 and 3
+            textHolder[1] = word.getPhraseBook().getAppropriateSaying();
+            // Set the minute string in index 2 and 3 (not always index 3, index 3 is null in instance
+            // Such as when minute is divisible by 10
+
             // Set the minutes in the string
             textHolder = setMinuteString(textHolder);
-            textHolder[4] = styler.getPhraseBook().getFinalSaying(styler.getDateFormatter());
+            textHolder[4] = word.getPhraseBook().getFinalSaying(word.getDateFormatter());
             // add saying to the last index ---
 
             return textHolder;
-
-
         }
 
-        return new String[]{"Error 10"};
-    }
 
-    /**
-     * Set current watch face look
-     * @param look
-     */
-    public void setWatchFaceLook(WatchFaceLook look) {
-        this.watchFaceLook = look;
-    }
-    public WatchFaceLook getWatchFaceLook() {
-        return watchFaceLook;
-    }
     /**
      * Update the current Date object.
      */
@@ -113,7 +80,6 @@ public class CustomDateFormatter {
     private String getHourAsString() {
         // Check the current hr and get a String
         String hour = new SimpleDateFormat("h").format(currentDate);
-        Log.d("TAG", hour);
         return digits[Integer.parseInt(hour) - 1];
     }
 
@@ -150,5 +116,31 @@ public class CustomDateFormatter {
 
         return string;
     } // end method
+
+    /**
+     * Check to see if the time has changed and needs to be reflected
+     * @return True if the time has changed and needs to be reflected
+     */
+    public boolean isDateChanged() {
+        // Calendar for getting current time
+        Calendar calendar = Calendar.getInstance();
+        // Old Date object, without being updated
+        Date oldDate = currentDate;
+        // Formatter for the hour and minutes
+        SimpleDateFormat currentTimeFormat = new SimpleDateFormat("h:mm");
+
+        // Split string according to delimiter :
+        String[] time = (currentTimeFormat.format(calendar.getTime()).split(":"));
+        String[] oldTime = (currentTimeFormat.format(oldDate.getTime()).split(":"));
+
+        // Minute has been changed!
+        if(! (time[1].equals(oldTime[1])) ) {
+            return true;
+        } else {
+            return false;
+        }
+
+
+    }
 
 } // ~~! end main class

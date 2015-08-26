@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:title="Look and Feel">
+        <ListPreference
+            android:entries="@array/alignmentOptions"
+            android:entryValues="@array/alignmentValues"
+            android:key="alignmentType"
+            android:defaultValue="1"
+            android:summary="Select watch face alignment"
+            android:title="Text Alignment" />
+        <ListPreference
+            android:entries="@array/backgroundOptions"
+            android:entryValues="@array/backgroundValues"
+            android:key="backgroundType"
+            android:defaultValue="1"
+            android:summary="Select watch face background color"
+            android:title="Background color" />
+        <ListPreference
+            android:entries="@array/transitionOptions"
+            android:entryValues="@array/transitionValues"
+            android:key="transitionType"
+            android:defaultValue="1"
+            android:summary="Select watch face transition"
+            android:title="Transition" />
+        <ListPreference
+            android:entries="@array/wordPackOptions"
+            android:entryValues="@array/wordPackValues"
+            android:key="wordPackType"
+            android:defaultValue="1"
+            android:summary="Select watch face word pack"
+            android:title="Word pack" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Weather">
+        <ListPreference
+            android:title="Local Temperature"
+            android:entries="@array/temperatureOption"
+            android:entryValues="@array/temperatureValue"
+            android:key="temperatureTypes"
+            android:defaultValue="1"
+            android:summary="Display the temperature in either celsius or fahrenheit on the watch face" />
+        <CheckBoxPreference
+            android:key="weatherWordPack"
+            android:title="Local Weather"
+            android:summary="Periodically display the current weather using the selected word pack"
+            android:defaultValue="false"/>
+
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

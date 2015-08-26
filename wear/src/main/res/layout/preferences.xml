@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <preference.BooleanPreference
+        app:pref_key="alignmentType"
+        app:pref_title="Text alignment"
+        app:pref_summaryOn="Left"
+        app:pref_summaryOff="Center"
+        app:pref_defaultValue="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <preference.ListPreference
+        app:pref_key="wordPackType"
+        app:pref_title="Default wordpacks"
+        app:pref_entries="@array/listArray"
+        app:pref_entryValues="@array/listValues"
+        app:pref_defaultValue="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</preference.PreferenceScreen >

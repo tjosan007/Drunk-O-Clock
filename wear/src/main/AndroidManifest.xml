@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tarwinderjosan.com.drunkoclock">
-    <uses-feature android:name="android.hardware.type.watch" />
-
     <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
@@ -11,10 +10,18 @@
         android:icon="@mipmap/ic_launcher"
         android:theme="@android:style/Theme.DeviceDefault">
 
+
         <service
-            android:name=".WatchFace"
+            android:name=".WordWatchFaceService"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_WALLPAPER">
+
+            <meta-data
+                android:name=
+                    "com.google.android.wearable.watchface.wearableConfigurationAction"
+                android:value=
+                    "com.example.android.wearable.watchface.CONFIG_DIGITAL" />
+
 
             <meta-data
                 android:name="android.service.wallpaper"
@@ -22,18 +29,27 @@
 
             <meta-data
                 android:name="com.google.android.wearable.watchface.preview"
-                android:resource="@drawable/display" />
+                android:resource="@drawable/prev" />
 
-            <meta-date
-                android:name="com.google.android.wearable.watchface.preview_circular"
-                android:resource="@drawable/displaycirc" />
 
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
                 <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />
             </intent-filter>
 
-            </service>
+        </service>
+
+        <activity
+            android:name=".SidePreferences"
+            android:label="Settings">
+            <intent-filter>
+                <action android:name=
+                    "com.example.android.wearable.watchface.CONFIG_DIGITAL" />
+                <category android:name=
+                    "com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
     </application>
 
